@@ -1,0 +1,39 @@
+<html>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="col-lg-6 col-md-8 login-box">
+        <br><br>
+        <div class="col-lg-12 login-title">
+            COLOR CHANGER
+        </div><br>
+            
+            <label class="form-control-label">Color(Hex) :</label><br><br>
+            <input type="text" class="form-control" placeholder="#000000" id="hexinput">
+            <br><br>
+            <div class="toggle">
+                <p id="lightenText" 
+                class="toggle-text">Lighten</p>
+                <div id="toggleBtn" class="toggle-btn">
+                    <div class="inner-circle"></div>
+                </div>
+                <p id="darkenText" 
+                class="toggle-text unselected">Darken</p>
+            </div>
+            <br><br>
+            <label class="form-control-label" id="slidertext">0%</label><br>
+            <input type="range" min="0" max="100" value="0" id="slider" class="form-control" name="slider"/>
+            <br><br>
+            <label class="form-control-label" id="inputtext">Input Color</label><br><br>
+            <div id="inputcolor" class="box">
+            </div><br>
+            <label class="form-control-label" id="alteredtext">Altered Color</label><br><br>
+            <div id="alteredcolor" class="box">
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
